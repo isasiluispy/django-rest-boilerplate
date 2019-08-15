@@ -26,10 +26,10 @@ AUTH_PASSWORD_VALIDATORS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'your-db-name',
-        'USER': 'your-db-user-name',
-        'PASSWORD': 'your-db-password',
-        'HOST': '127.0.0.1',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
         'PORT': '5432'
     }
 }
