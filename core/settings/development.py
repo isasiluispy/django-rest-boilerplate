@@ -48,3 +48,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# cors settings
+
+CORS_ORIGIN_ALLOW_ALL = True

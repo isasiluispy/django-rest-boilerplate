@@ -22,7 +22,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -33,3 +32,8 @@ DATABASES = {
         'PORT': '5432'
     }
 }
+
+# cors settings
+
+# A list of origins that are authorized to make cross-site HTTP requests.
+CORS_ORIGIN_WHITELIST = []
