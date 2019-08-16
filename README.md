@@ -1,4 +1,4 @@
-# django-rest-starter #
+# django-rest-boilerplate #
 
 An easy to use project boilerplate for Django(2.2.4) and Django Rest Framework(3.10.2) that follows best practices.
 
