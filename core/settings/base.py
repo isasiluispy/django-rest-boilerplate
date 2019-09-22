@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_auth',
     'corsheaders',
+    'custom_auth',
 ]
 
 MIDDLEWARE = [
@@ -78,4 +79,4 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # default user model
-AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'custom_auth.User'
